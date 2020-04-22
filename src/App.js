@@ -4,7 +4,9 @@ import { Button } from "@material-ui/core";
 function App() {
   return (
     <div className="App">
-      <Button disabled>This is a button!!</Button>
+      <Button color="primary" fullWidth>
+        This is a button!!
+      </Button>
     </div>
   );
 }
